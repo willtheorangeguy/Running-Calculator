@@ -1,5 +1,5 @@
 # Running Calculator Concept
-# (C) 2022 
+# (C) 2022 - For the Sada's
 
 # MATH CONSTANTS
 ft = 3.281
@@ -42,7 +42,7 @@ print(r"""
                                                  __/ |
                                                 |___/ 
 """)
-print("              WELCOME TO THE RUNNNING SPEED CALLCULATOR \n    Please answer each question to recieve your time and speed! \nNote: Currently, the program only displays results in metric values. \n")
+print("              WELCOME TO THE RUNNING SPEED CALCULATOR \n    Please answer each question to receive your time and speed! \nNote: Currently, the program only displays results in metric values. \n")
 
 # LENGTH ENTRY
 # Type
@@ -86,7 +86,7 @@ while run == True:
     length = float(input("How far did you run? "))
     hours = int(input("How many hours did it take you? (if < 1, enter 0) "))
     mins = int(input("How many minutes did it take you? (if < 1, enter 0) "))
-    secs = int(input("How many seconds did it take you? (if < 1, enter 0) \n"))
+    secs = int(input("How many seconds did it take you? (if < 1, enter 0) "))
 
     # DISTANCE CALCULATION
     if unit == "marathon":
@@ -127,6 +127,7 @@ while run == True:
         distance = distance
         unit = "meters"
 
+    print("")
     if unit == "meters":
         print("You travelled " + str(round(distance, 2)) + " meters.")
     else:
