@@ -84,9 +84,9 @@ while run == True:
     # Value - needs to be in meters
     distance = 0
     length = float(input("How far did you run? "))
-    hours = int(input("How many hours did it take you? (if < 1, enter 0) "))
-    mins = int(input("How many minutes did it take you? (if < 1, enter 0) "))
-    secs = int(input("How many seconds did it take you? (if < 1, enter 0) "))
+    hours = float(input("How many hours did it take you? (if < 1, enter 0) "))
+    mins = float(input("How many minutes did it take you? (if < 1, enter 0) "))
+    secs = float(input("How many seconds did it take you? (if < 1, enter 0) "))
 
     # DISTANCE CALCULATION
     if unit == "marathon":
@@ -132,5 +132,5 @@ while run == True:
         print("You travelled " + str(round(distance, 2)) + " meters.")
     else:
         print("You travelled " + str(round(distance, 2)) + " kilometers.")
-    print("At a speed of " + str(round(metersps, 2)) + " meters per second or " + str(round(kmph, 2)) + " kilometers per hour. \n\n")
+    print("Your speed was " + str(round(metersps, 2)) + " meters per second or " + str(round(kmph, 2)) + " kilometers per hour. \n\n")
     length_run = True 
