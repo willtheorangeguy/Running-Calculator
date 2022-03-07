@@ -9,6 +9,7 @@ Miles            1069.3m
 Feet             0.38m
 Kilometers       1000m
 Meters           1m
+license          View the license file. 
 quit             Exit the program.
 ```
 
@@ -35,6 +36,10 @@ quit             Exit the program.
 ## `Meters`
 
 1 meter is 1 meter.
+
+## `license`
+
+Shows the GNU GPL v3 license text. The full license can be accessed in the `LICENSE.md` file.
 
 ## `help`
 
