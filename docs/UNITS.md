@@ -1,6 +1,6 @@
 # Running Calculator Commands
 
-**The following units are available in Running Calculator:**
+**The following units and commands are available in Running Calculator:**
 
 ```text
 Marathons        42195m
