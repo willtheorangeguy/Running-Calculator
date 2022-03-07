@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/willtheorangeguy/Running-Calculator/blob/main/docs/images/logo.png" height="250px" width="400px" alt="Running Calculator">
+  <img src="https://github.com/willtheorangeguy/Running-Calculator/blob/main/docs/images/logo.png" alt="Running Calculator">
   <br>
   Running Calculator
   <br>
@@ -51,13 +51,13 @@
 
 ## Download
 
-You can **[download](https://github.com/willtheorangeguy/Running-Calculator/releases/latest) the source code** to run the scripts from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
+You can **[download](https://github.com/willtheorangeguy/Running-Calculator/releases/latest) the source code** to run the script from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
 
 You can **[download](https://github.com/willtheorangeguy/Running-Calculator/releases/latest) the latest executable version** of Running-Calculator for Windows. **This does not require Python.**
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the scripts from GitHub above. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the script from GitHub above. From your command line:
 
 ```bash
 # Clone this repository
