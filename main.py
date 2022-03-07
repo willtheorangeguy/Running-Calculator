@@ -90,6 +90,12 @@ while run == True:
             unit="meters"
             print("You are now entering in meters! \n")
             length_run = False
+        elif length_type.lower() == "license":
+            print("Running Calculator Copyright (C) 2022  @willtheorangeguy")
+            print("This program comes with ABSOLUTELY NO WARRANTY; for details view the license.")
+            print("This is free software, and you are welcome to redistribute it")
+            print("under certain conditions; view the license for details. \n")
+            length_run = True
         elif length_type.lower() == "quit":
             length_run = False
             run = False 
@@ -102,6 +108,7 @@ while run == True:
             print("Feet\t\t 0.38m")
             print("Kilometers\t 1000m")
             print("Meters\t\t 1m")
+            print("license\t\t View the license file."
             print("quit\t\t Exit the program. \n")
             length_run = True
 
