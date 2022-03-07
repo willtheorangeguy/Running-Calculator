@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.3.0](https://github.com/willtheorangeguy/PyWorkout/releases/tag/v1.3.0)
+
+### Added
+
+- The `license` command is now available in the program.
+
 ## [v1.2.0](https://github.com/willtheorangeguy/PyWorkout/releases/tag/v1.2.0)
 
 ### Added
