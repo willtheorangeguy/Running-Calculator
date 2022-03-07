@@ -81,7 +81,7 @@ Miles            1069.3m
 Feet             0.38m
 Kilometers       1000m
 Meters           1m
-License          View the license file. 
+license          View the license file. 
 quit             Exit the program.
 ```
 
