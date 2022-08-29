@@ -29,7 +29,7 @@ quit             Exit the program.
 
 1 foot is 0.38 meters.
 
-## `Kilometer`
+## `Kilometers`
 
 1 half marathon is 1000 meters.
 
