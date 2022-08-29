@@ -12,7 +12,15 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="GitHub Actions State" src="https://img.shields.io/github/workflow/status/willtheorangeguy/Running-Calculator/Pylint">
+  <img alt="Test State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/test.yml/badge.svg">
+  <!-- Stability -->
+  <img alt="Build State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/build.yml/badge.svg">
+  <!-- Stability -->
+  <img alt="Pylint State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/pylint.yml/badge.svg">
+  <!-- CodeQL -->
+  <img alt="CodeQL State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/codeql.yml/badge.svg">
+  <!-- Gitleaks -->
+  <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/gitleaks.yml/badge.svg">
   <!-- Version -->
   <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Running-Calculator">
   <!-- Issues -->
@@ -104,7 +112,7 @@ This software uses the following open source packages, projects, services or web
 <!-- Credits Table -->
 <table>
   <tr>
-    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="150" height="150" alt="GitHub"/></th>
+    <th align="center"><img src="https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F2107379463%2Ficons%2Fmonochrome_large.png?w=240&h=240&s=8a19bbc158996d098e2fb18310ba7f33" width="150" height="150" alt="GitHub"/></th>
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/182px-Python-logo-notext.svg.png" width="150" height="150" alt="PSF"/></th>
     <th align="center"><img src="https://pyinstaller.readthedocs.io/en/v4.2/_static/pyinstaller-draft1a.ico" width="150" height="150" alt="PyInstaller"/></th>
     <th align="center"><img src="https://pbs.twimg.com/profile_images/912151274551885824/sjzD5vK9_400x400.jpg" width="150" height="150" alt="Carbon"/></th>
@@ -132,7 +140,6 @@ This software uses the following open source packages, projects, services or web
 * [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout!
 * [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
 * [Python Logo Widgets](https://github.com/willtheorangeguy/Python-Logo-Widgets) - Python Powered Logo widgets that can be added to any GUI project.
-* [Random Lotto Number Chooser](https://github.com/willtheorangeguy/Random-Lotto-Number-Chooser) - Randomly pick lucky lotto numbers.
 
 ## License
 
