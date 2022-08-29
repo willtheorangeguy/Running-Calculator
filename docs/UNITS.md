@@ -23,13 +23,13 @@ quit             Exit the program.
 
 ## `Miles`
 
-1 miles is 1069.3 meters.
+1 mile is 1069.3 meters.
 
 ## `Feet`
 
 1 foot is 0.38 meters.
 
-## `Kilometer`
+## `Kilometers`
 
 1 half marathon is 1000 meters.
 
