@@ -23,7 +23,7 @@ quit             Exit the program.
 
 ## `Miles`
 
-1 miles is 1069.3 meters.
+1 mile is 1069.3 meters.
 
 ## `Feet`
 
