@@ -2,11 +2,11 @@
 
 🎉 Thanks for taking the time to contribute! 🎉
 
-The following is a set of guidelines for contributing to the Running-Calculator project on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to the Running Calculator project on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/willtheorangeguy/Running-Calculator/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to our [Discord](https://discord.gg/2eBHwHaPWp).
+This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to our [Discord](https://discord.gg/2eBHwHaPWp).
 
 ## New Contributor Guide
 
@@ -34,7 +34,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 ### Did you fix whitespace, format code, or make a purely cosmetic patch?
 
-- Changes that are cosmetic in nature and do not add anything substantial to the stability, functionality, or testability of Running-Calculator are still accepted! Just follow the same instructions as above.
+- Changes that are cosmetic in nature and do not add anything substantial to the stability, functionality, or testability of Running Calculator are still accepted! Just follow the same instructions as above.
 
 ### Do you intend to add a new feature or change an existing one?
 
@@ -43,7 +43,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 ### Do you have questions about the source code?
 
-- Ask any question about how to use Running-Calculator on our [Discord](https://discord.gg/YFMcACG9rh).
+- Ask any question about how to use Running Calculator on our [Discord](https://discord.gg/YFMcACG9rh).
 - If it does not get answered, open an [issue](https://github.com/willtheorangeguy/Running-Calculator/issues/new).  
 
 ## Coding Conventions
