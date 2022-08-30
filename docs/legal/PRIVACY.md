@@ -34,7 +34,7 @@ For the purposes of this Privacy Policy:
 
 ### Personal Data
 
-While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. 
+While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You.
 
 ## Use of Your Personal Data
 
