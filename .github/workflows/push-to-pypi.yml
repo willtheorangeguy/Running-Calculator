@@ -1,6 +1,7 @@
 name: PyPI Build
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
