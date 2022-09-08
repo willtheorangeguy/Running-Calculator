@@ -12,9 +12,9 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="Test State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/test.yml/badge.svg">
+  <img alt="PyPI Build State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/push-to-pypi.yml/badge.svg">
   <!-- Stability -->
-  <img alt="Build State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/build.yml/badge.svg">
+  <img alt="Docker State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/docker-build.yml/badge.svg">
   <!-- Stability -->
   <img alt="Pylint State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/pylint.yml/badge.svg">
   <!-- CodeQL -->
