@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Running-Calculator"
-version = "1.5.1"
+version = "1.5.4"
 authors = [
   { name="willtheorangeguy" },
 ]
