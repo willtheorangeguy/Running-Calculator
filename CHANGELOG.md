@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.5.4](https://github.com/willtheorangeguy/Running-Calculator/releases/tag/v1.5.4)
+
+### Changed
+
+- Fix the Python package file.
+
 ## [v1.5.0](https://github.com/willtheorangeguy/Running-Calculator/releases/tag/v1.5.0)
 
 ### Added
