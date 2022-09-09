@@ -65,6 +65,10 @@ You can **[download](https://github.com/willtheorangeguy/Running-Calculator/rele
 
 ## How To Use
 
+To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/Running-Calculator/edit/main/README.md#git), which allows you to clone and run the application, [`pip`](https://github.com/willtheorangeguy/Running-Calculator/edit/main/README.md#pip) to create a command line application, or [Docker](https://github.com/willtheorangeguy/Running-Calculator/edit/main/README.md#docker) to create a container of the application.
+
+### Git
+
 To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the script from GitHub above. From your command line:
 
 ```bash
@@ -78,7 +82,21 @@ $ cd Running-Calculator
 $ python main.py
 ```
 
-You can also pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
+### `pip`
+
+You can install the program from the [Python Package Index](https://pypi.org/project/Running-Calculator/) through `pip`.
+
+```bash
+# Install via pip
+$ pip install running-calculator
+
+# Run the CLI
+$ running-calculator
+```
+
+### Docker
+
+You can pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
 
 ```bash
 # Pull image
