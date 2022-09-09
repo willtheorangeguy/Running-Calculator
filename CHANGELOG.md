@@ -1,6 +1,6 @@
 # Changelog
 
-## [v1.5.4](https://github.com/willtheorangeguy/Running-Calculator/releases/tag/v1.5.4)
+## [v1.6.0](https://github.com/willtheorangeguy/Running-Calculator/releases/tag/v1.6.0)
 
 ### Changed
 
