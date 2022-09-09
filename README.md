@@ -61,7 +61,7 @@
 
 You can **[download](https://github.com/willtheorangeguy/Running-Calculator/releases/latest) the source code** to run the script from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
 
-You can **[download](https://github.com/willtheorangeguy/Running-Calculator/releases/latest) the latest executable version** of Running-Calculator for Windows. **This does not require Python.**
+You can **[download](https://github.com/willtheorangeguy/Running-Calculator/releases/latest) the latest executable version** of Running Calculator for Windows. **This does not require Python.**
 
 ## How To Use
 
