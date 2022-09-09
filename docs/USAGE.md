@@ -1,6 +1,6 @@
 # Running Calculator Usage
 
-To install Running Calculator, you can either use an executable package (Windows), or run the scripts through Python (Windows, macOS, Linux).
+To install Running Calculator, you can use an executable package (Windows), run the scripts through Python (Windows, macOS, Linux), install from the [Python Package Index](https://pypi.org/), or run a [Docker](https://www.docker.com/) container from [GitHub Packages](https://github.com/willtheorangeguy/Running-Calculator/pkgs/container/running-calculator).
 
 ## Executable Package
 
@@ -17,3 +17,17 @@ To install Running Calculator, you can either use an executable package (Windows
 3. Extract the source code files using a program like [7-Zip](https://www.7-zip.org/).
 4. Double click on `main.py`, or right-click and open with IDLE and press `F5`.
 5. Enjoy the program!
+
+## Python Package Index (`pip`)
+
+1. Download and install [Python](https://www.python.org/downloads/).
+2. Open a terminal and run the command: `pip install running-calculator`.
+3. Start the program by running the command: `running-calculator`. 
+5. Enjoy the program!
+
+## Docker Container
+
+1. Download and install [Docker](https://www.docker.com/products/docker-desktop/).
+2. Open a terminal and pull the container: `docker pull ghcr.io/willtheorangeguy/running-calculator:main`.
+3. Start the container: `docker run -i -t ghcr.io/willtheorangeguy/running-calculator:main python main.py`.
+4. Enjoy the program!
