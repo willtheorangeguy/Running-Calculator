@@ -65,7 +65,7 @@ You can **[download](https://github.com/willtheorangeguy/Running-Calculator/rele
 
 ## How To Use
 
-To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/Running-Calculator/edit/main/README.md#git), which allows you to clone and run the application, [`pip`](https://github.com/willtheorangeguy/Running-Calculator/edit/main/README.md#pip) to create a command line application, or [Docker](https://github.com/willtheorangeguy/Running-Calculator/edit/main/README.md#docker) to create a container of the application.
+To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/Running-Calculator/main/README.md#git), which allows you to clone and run the application, [`pip`](https://github.com/willtheorangeguy/Running-Calculator/main/README.md#pip) to create a command line application, or [Docker](https://github.com/willtheorangeguy/Running-Calculator/main/README.md#docker) to create a container of the application.
 
 ### Git
 
