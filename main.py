@@ -14,8 +14,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-
 # Running Calculator
+
+
 def main():
     # MATH CONSTANTS
     FT = 3.281
@@ -53,14 +54,14 @@ def main():
     )
     print(
         r"""
-                                        _             
-                                        (_)            
-                    _ __ _   _ _ __  _ __  _ _ __   __ _ 
+                                        _
+                                        (_)
+                    _ __ _   _ _ __  _ __  _ _ __   __ _
                 | '__| | | | '_ \| '_ \| | '_ \ / _` |
                 | |  | |_| | | | | | | | | | | | (_| |
                 |_|   \__,_|_| |_|_| |_|_|_| |_|\__, |
                                                  __/ |
-                                                |___/ 
+                                                |___/
     """
     )
     print("              WELCOME TO THE RUNNING SPEED CALCULATOR")
