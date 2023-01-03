@@ -1,6 +1,6 @@
 """
 Running Calculator Concept - for the Sada's
-Copyright (C) 2022 @willtheorangeguy
+Copyright (C) 2022-2023 @willtheorangeguy
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -14,8 +14,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-
 # Running Calculator
+
+
 def main():
     # MATH CONSTANTS
     FT = 3.281
@@ -53,14 +54,14 @@ def main():
     )
     print(
         r"""
-                                        _             
-                                        (_)            
-                    _ __ _   _ _ __  _ __  _ _ __   __ _ 
+                                        _
+                                        (_)
+                    _ __ _   _ _ __  _ __  _ _ __   __ _
                 | '__| | | | '_ \| '_ \| | '_ \ / _` |
                 | |  | |_| | | | | | | | | | | | (_| |
                 |_|   \__,_|_| |_|_| |_|_|_| |_|\__, |
                                                  __/ |
-                                                |___/ 
+                                                |___/
     """
     )
     print("              WELCOME TO THE RUNNING SPEED CALCULATOR")
@@ -103,7 +104,7 @@ def main():
                 print("You are now entering in meters! \n")
                 length_run = False
             elif length_type.lower() == "license":
-                print("Running Calculator Copyright (C) 2022  @willtheorangeguy")
+                print("Running Calculator Copyright (C) 2022-2023 @willtheorangeguy")
                 print(
                     "This program comes with ABSOLUTELY NO WARRANTY; for details view the license."
                 )
