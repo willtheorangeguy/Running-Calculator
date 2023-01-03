@@ -1,6 +1,6 @@
 """
 Running Calculator Concept - for the Sada's
-Copyright (C) 2022 @willtheorangeguy
+Copyright (C) 2022-2023 @willtheorangeguy
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -103,7 +103,7 @@ def main():
                 print("You are now entering in meters! \n")
                 length_run = False
             elif length_type.lower() == "license":
-                print("Running Calculator Copyright (C) 2022  @willtheorangeguy")
+                print("Running Calculator Copyright (C) 2022-2023 @willtheorangeguy")
                 print(
                     "This program comes with ABSOLUTELY NO WARRANTY; for details view the license."
                 )
