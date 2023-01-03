@@ -16,6 +16,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
 # Running Calculator
+
+
 def main():
     # MATH CONSTANTS
     FT = 3.281
@@ -132,7 +134,8 @@ def main():
             try:  # enable only numerical values
                 time_run = False
                 length = float(input("How far did you run? "))
-                hours = int(input("How many hours did it take you? (if < 1, enter 0) "))
+                hours = int(
+                    input("How many hours did it take you? (if < 1, enter 0) "))
                 mins = int(
                     input("How many minutes did it take you? (if < 1, enter 0) ")
                 )
