@@ -6,19 +6,22 @@ exclude_patterns = [
 ]
 
 [[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
 name = "docker"
-enabled = true
 
   [analyzers.meta]
   dockerfile_paths = ["Dockerfile"]
 
 [[analyzers]]
 name = "python"
-enabled = true
 
   [analyzers.meta]
   runtime_version = "3.x.x"
 
 [[transformers]]
 name = "black"
-enabled = true
