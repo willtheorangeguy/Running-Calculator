@@ -15,8 +15,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 # Running Calculator
-
 import sys
+
 
 def main():
     """Main entry point of the app."""
@@ -108,7 +108,8 @@ def main():
             elif length_type.lower() == "license":
                 print("Running Calculator Copyright (C) 2022-2023 @willtheorangeguy")
                 print(
-                    "This program comes with ABSOLUTELY NO WARRANTY; for details view the license."
+                    "This program comes with ABSOLUTELY NO WARRANTY;" \
+                        " for details view the license."
                 )
                 print("This is free software, and you are welcome to redistribute it")
                 print("under certain conditions; view the license for details. \n")
@@ -142,7 +143,8 @@ def main():
                 secs = float(input("How many seconds did it take you? "))
             except ValueError:
                 print(
-                    "Values must be in numerical form, and only seconds can be a decimal! \n"
+                    "Values must be in numerical form, " \
+                        "and only seconds can be a decimal! \n"
                 )
                 time_run = True
 
@@ -176,7 +178,6 @@ def main():
             distance = distance / 1000
             unit = "kilometers"
         else:
-            distance = distance
             unit = "meters"
 
         # Display result
