@@ -10,9 +10,11 @@ def readme():
 setup(
     name="running-calculator",
     version="1.6.0",
-    description=("A running distance and speed command line interface."
-                 " Measures in metric and imperial units,"
-                 " as well as marathons and half-marathons."),
+    description=(
+        "A running distance and speed command line interface."
+        " Measures in metric and imperial units,"
+        " as well as marathons and half-marathons."
+    ),
     long_description=readme(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
