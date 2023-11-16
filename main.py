@@ -16,8 +16,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 # Running Calculator
 
+import sys
 
 def main():
+    """Main entry point of the app."""
     # MATH CONSTANTS
     FT = 3.281
     MILES = 1609.344
@@ -69,9 +71,9 @@ def main():
     print("Note: Currently, the program only displays results in metric values. \n")
 
     # LENGTH ENTRY
-    while run == True:
+    while run:
         # Type of Measurement
-        while length_run == True:
+        while length_run:
             length_type = str(input("What unit will you be inputting? "))
             if length_type.lower() == "marathons" or length_type.lower() == "marathon":
                 unit = "marathon"
@@ -114,7 +116,7 @@ def main():
             elif length_type.lower() == "quit":
                 length_run = False
                 run = False
-                exit()
+                sys.exit()
             else:
                 print("Please try again. Options are:")
                 print("Marathons\t 42195m")
@@ -129,7 +131,7 @@ def main():
 
         # Value
         distance = 0
-        while time_run == True:
+        while time_run:
             try:  # enable only numerical values
                 time_run = False
                 length = float(input("How far did you run? "))
@@ -147,22 +149,16 @@ def main():
         # DISTANCE CALCULATION - conversion to meters
         if unit == "marathon":
             distance = length * MARATHON
-            unit == "meters"
         elif unit == "halfmarathon":
             distance = length * HALF_MARATHON
-            unit == "meters"
         elif unit == "miles":
             distance = length * MILES
-            unit == "meters"
         elif unit == "feet":
             distance = length / FT
-            unit == "meters"
         elif unit == "kilometers":
             distance = length * 1000
-            unit == "meters"
         elif unit == "meters":
             distance = length
-            unit == "meters"
         else:
             pass
 
@@ -186,9 +182,9 @@ def main():
         # Display result
         print("")
         if unit == "meters":
-            print("You travelled " + str(round(distance, 2)) + " meters.")
+            print("You traveled " + str(round(distance, 2)) + " meters.")
         else:
-            print("You travelled " + str(round(distance, 2)) + " kilometers.")
+            print("You traveled " + str(round(distance, 2)) + " kilometers.")
         print(
             "Your speed was "
             + str(round(metersps, 2))
