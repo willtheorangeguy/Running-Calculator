@@ -1,9 +1,10 @@
+"""Setup file for Rrunning-Calculator."""
 from setuptools import setup
 
 
 def readme():
     """Read the README.md file."""
-    with open("README.md") as f:
+    with open("README.md", encoding="utf-8") as f:
         return f.read()
 
 
