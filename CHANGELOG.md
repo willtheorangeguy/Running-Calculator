@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.7.0](https://github.com/willtheorangeguy/Running-Calculator/releases/tag/v1.7.0)
+
+### Added
+
+- PyTest unit tests.
+
+### Changed
+
+- New functions for calculation and display of run distance.
+
 ## [v1.6.0](https://github.com/willtheorangeguy/Running-Calculator/releases/tag/v1.6.0)
 
 ### Changed
