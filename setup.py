@@ -10,7 +10,7 @@ def readme():
 
 setup(
     name="running-calculator",
-    version="1.6.0",
+    version="1.7.0",
     description=(
         "A running distance and speed command line interface."
         " Measures in metric and imperial units,"
