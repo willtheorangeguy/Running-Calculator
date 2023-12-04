@@ -120,6 +120,7 @@ Feet             0.38m
 Kilometers       1000m
 Meters           1m
 license          View the license file. 
+exit             Exit the program.
 quit             Exit the program.
 ```
 
