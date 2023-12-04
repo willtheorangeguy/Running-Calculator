@@ -10,6 +10,7 @@ Feet             0.38m
 Kilometers       1000m
 Meters           1m
 license          View the license file. 
+exit             Exit the program.
 quit             Exit the program.
 ```
 
@@ -53,9 +54,10 @@ Miles            1069.3m
 Feet             0.38m
 Kilometers       1000m
 Meters           1m
+exit             Exit the program.
 quit             Exit the program.
 ```
 
-## `quit`
+## `exit` or `quit`
 
 Exits the program. Useful for when calculations are completed.
