@@ -20,6 +20,32 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import sys
 
 
+def calculate_distance(distance, unit):
+    """Calculate the distance in meters."""
+    if distance > 1000:
+        distance = distance / 1000
+        unit = "kilometers"
+    else:
+        unit = "meters"
+    return distance, unit
+
+
+def display_result(distance, unit, metersps, kmph):
+    """Display the result."""
+    print("")
+    if unit == "meters":
+        print("You traveled " + str(round(distance, 2)) + " meters.")
+    else:
+        print("You traveled " + str(round(distance, 2)) + " kilometers.")
+    print(
+        "Your speed was "
+        + str(round(metersps, 2))
+        + " meters per second or "
+        + str(round(kmph, 2))
+        + " kilometers per hour. \n\n"
+    )
+
+
 def main():
     """Main entry point of the app."""
     # MATH CONSTANTS
@@ -116,7 +142,7 @@ def main():
                 print("This is free software, and you are welcome to redistribute it")
                 print("under certain conditions; view the license for details. \n")
                 length_run = True
-            elif length_type.lower() == "quit":
+            elif length_type.lower() == "quit" or length_type.lower() == "exit":
                 length_run = False
                 run = False
                 sys.exit()
@@ -129,6 +155,7 @@ def main():
                 print("Kilometers\t 1000m")
                 print("Meters\t\t 1m")
                 print("license\t\t View the license file.")
+                print("exit\t\t Exit the program. \n")
                 print("quit\t\t Exit the program. \n")
                 length_run = True
 
@@ -175,26 +202,8 @@ def main():
         kmph = metersps * 3.6
 
         # PRINT FINAL RESPONSES
-        # Change very long meters to kilometers
-        if distance >= 1000:
-            distance = distance / 1000
-            unit = "kilometers"
-        else:
-            unit = "meters"
-
-        # Display result
-        print("")
-        if unit == "meters":
-            print("You traveled " + str(round(distance, 2)) + " meters.")
-        else:
-            print("You traveled " + str(round(distance, 2)) + " kilometers.")
-        print(
-            "Your speed was "
-            + str(round(metersps, 2))
-            + " meters per second or "
-            + str(round(kmph, 2))
-            + " kilometers per hour. \n\n"
-        )
+        distance, unit = calculate_distance(distance, unit)
+        display_result(distance, unit, metersps, kmph)
 
         length_run = True
         time_run = True
