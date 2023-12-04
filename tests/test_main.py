@@ -8,6 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from main import calculate_distance, display_result
 
+
 def test_calculate_distance():
     """Test if calculate_distance returns the correct distance and unit."""
     # Test when distance is greater than 1000
@@ -27,10 +28,14 @@ def test_display_result(capsys):
     display_result(500, "meters", 10, 36)
     captured = capsys.readouterr()
     assert "You traveled 500 meters." in captured.out
-    assert "Your speed was 10 meters per second or 36 kilometers per hour." in captured.out
+    assert (
+        "Your speed was 10 meters per second or 36 kilometers per hour." in captured.out
+    )
 
     # Test when unit is "kilometers"
     display_result(1.5, "kilometers", 10, 36)
     captured = capsys.readouterr()
     assert "You traveled 1.5 kilometers." in captured.out
-    assert "Your speed was 10 meters per second or 36 kilometers per hour." in captured.out
+    assert (
+        "Your speed was 10 meters per second or 36 kilometers per hour." in captured.out
+    )
