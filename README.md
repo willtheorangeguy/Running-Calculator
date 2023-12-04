@@ -16,6 +16,8 @@
   <!-- Stability -->
   <img alt="Docker State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/docker-build.yml/badge.svg">
   <!-- Stability -->
+  <img alt="PyTest State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/pytest.yml/badge.svg">
+  <!-- Stability -->
   <img alt="Pylint State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/pylint.yml/badge.svg">
   <!-- CodeQL -->
   <img alt="CodeQL State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/codeql.yml/badge.svg">
