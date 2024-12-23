@@ -49,7 +49,7 @@
 </p>
 
 <!-- Screenshot(s) -->
-![screenshot](https://github.com/willtheorangeguy/Running-Calculator/blob/main/docs/images/welcome.png)
+![screenshot](https://raw.githubusercontent.com/willtheorangeguy/Running-Calculator/refs/heads/main/docs/images/welcome.png)
 
 ## Key Features
 
