@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/willtheorangeguy/Running-Calculator/blob/main/docs/images/logo.png" alt="Running Calculator">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/Running-Calculator/refs/heads/main/docs/images/logo.png" alt="Running Calculator">
   <br>
   Running Calculator
   <br>
