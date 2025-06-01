@@ -4,8 +4,11 @@ updates:
     directory: "/" 
     schedule:
       interval: "daily" 
+    ignore: 
+      update-types: [ "version-update:semver-patch" ]
   - package-ecosystem: "pip" 
     directory: "/" 
     schedule:
       interval: "daily" 
-      
+    ignore: 
+      update-types: [ "version-update:semver-patch" ]
