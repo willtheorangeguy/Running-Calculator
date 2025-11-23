@@ -1,4 +1,5 @@
 """This is a test file for the Running Calculator program."""
+
 # pylint: disable=locally-disabled, wrong-import-position, import-error
 
 import sys
