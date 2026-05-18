@@ -5,9 +5,6 @@ This folder includes all of the docs for Running Calculator. More can be found o
 ```text
 ├── docs
 |   ├── images
-|   ├── legal
-|   |   ├── PRIVACY.md
-|   |   ├── TERMS.md
 |   ├── USAGE.md
 |   ├── UNITS.md
 └── README.md
