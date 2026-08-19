@@ -1,140 +1,87 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/willtheorangeguy/Running-Calculator/refs/heads/main/docs/images/logo.png" alt="Running Calculator">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/Running-Calculator/logo.png" height="250px" width="400px" alt="Running Calculator">
   <br>
   Running Calculator
   <br>
 </h1>
 
 <!-- Copy -->
-<h4 align="center">A running distance and speed command line interface! Measures in metric and imperial units, as well as marathons and half-marathons.</h4>
+<h4 align="center">Work out your running speed from a distance and a time, in whatever unit you measured it.</h4>
 
 <!-- Badges -->
 <div align="center">
-  <!-- Stability -->
-  <img alt="PyPI Build State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/push-to-pypi.yml/badge.svg">
-  <!-- Stability -->
-  <img alt="Docker State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/docker-build.yml/badge.svg">
-  <!-- Stability -->
-  <img alt="PyTest State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/pytest.yml/badge.svg">
-  <!-- Stability -->
-  <img alt="Pylint State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/pylint.yml/badge.svg">
-  <!-- CodeQL -->
-  <img alt="CodeQL State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/codeql.yml/badge.svg">
-  <!-- Gitleaks -->
-  <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Running-Calculator/actions/workflows/gitleaks.yml/badge.svg">
-  <!-- Version -->
-  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Running-Calculator">
-  <!-- Issues -->
+  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Running-Calculator?include_prereleases">
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/Running-Calculator">
-  <!-- Pull Requests -->
   <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/Running-Calculator">
-  <!-- Discord -->
-  <img alt="Discord Server ID" src="https://img.shields.io/discord/950267832283848764">
-  <!-- Downloads -->
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/willtheorangeguy/Running-Calculator/total">
-  <!-- Language Count -->
-  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/willtheorangeguy/Running-Calculator">
+  <img alt="License" src="https://img.shields.io/github/license/willtheorangeguy/Running-Calculator">
 </div>
 
 <!-- Navigation -->
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#download">Download</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#documentation">Documentation</a> •
   <a href="#support">Support</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#changelog">Changelog</a> •
-  <a href="#credits">Credits & Contributors</a>
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
 </p>
 
-<!-- Screenshot(s) -->
-![screenshot](https://raw.githubusercontent.com/willtheorangeguy/Running-Calculator/refs/heads/main/docs/images/welcome.png)
+<!-- Screenshot -->
+<div align="center">
+  <img alt="Running Calculator" src="https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/Running-Calculator/welcome.png">
+</div>
 
 ## Key Features
 
-* Easily input distance of a run.
-* Input distance can be in marathons, half-marathons, miles, feet, kilometers and meters.
-* Easily input run time.
-* Displays speeds in meters per second and kilometers per hour.
-* Cross platform.
+- Enter a distance in **marathons, half marathons, miles, feet, kilometres, or metres**.
+- Enter a time in hours, minutes, and seconds.
+- Get speed in metres per second and kilometres per hour.
+- Loops, so you can do several runs in one sitting.
+- Pure standard library; runs anywhere Python does.
 
-## Download
+Results are always metric, whatever you entered.
 
-You can **[download](https://github.com/willtheorangeguy/Running-Calculator/releases/latest) the source code** to run the script from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
-
-You can **[download](https://github.com/willtheorangeguy/Running-Calculator/releases/latest) the latest executable version** of Running Calculator for Windows. **This does not require Python.**
-
-## How To Use
-
-To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/Running-Calculator/main/README.md#git), which allows you to clone and run the application, [`pip`](https://github.com/willtheorangeguy/Running-Calculator/main/README.md#pip) to create a command line application, or [Docker](https://github.com/willtheorangeguy/Running-Calculator/main/README.md#docker) to create a container of the application.
-
-### Git
-
-To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the script from GitHub above. From your command line:
+## Installation
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/willtheorangeguy/Running-Calculator
-
-# Go into the repository
-$ cd Running-Calculator
-
-# Run the CLI
-$ python main.py
+git clone https://github.com/willtheorangeguy/Running-Calculator
+cd Running-Calculator
+python main.py
 ```
 
-### `pip`
+Also on PyPI and as a Docker image — see [`docs/installation.md`](docs/installation.md).
 
-You can install the program from the [Python Package Index](https://pypi.org/project/Running-Calculator/) through `pip`.
+## Usage
 
-```bash
-# Install via pip
-$ pip install running-calculator
-
-# Run the CLI
-$ running-calculator
+```
+What unit will you be inputting? miles
+How far did you run? 3.1
+How many hours did it take you? (if < 1, enter 0) 0
+How many minutes did it take you? (if < 1, enter 0) 27
+How many seconds did it take you? 14
 ```
 
-### Docker
+Type `license` for the licence notice, or `quit` to leave.
 
-You can pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
+> **Do not enter zero for all three time fields** — it divides by zero and exits with a traceback. See [`docs/internal/known-issues.md`](docs/internal/known-issues.md).
 
-```bash
-# Pull image
-$ docker pull ghcr.io/willtheorangeguy/running-calculator:main
+## Documentation
 
-# Run container
-$ docker run -i -t ghcr.io/willtheorangeguy/running-calculator:main python main.py
-```
+Full documentation lives in [`docs/`](docs/README.md):
+[Quickstart](docs/quickstart.md) · [Installation](docs/installation.md) · [Units](docs/units.md) · [Architecture](docs/architecture.md) · [Development](docs/development.md) · [FAQ](docs/faq.md) · [Troubleshooting](docs/troubleshooting.md) · [Roadmap](docs/roadmap.md)
 
 ## Support
 
-**The following units are available (can be generated by using the `help` command):**
-
-```text
-Marathons        42195m
-Half Marathons   21907.5m
-Miles            1069.3m
-Feet             0.38m
-Kilometers       1000m
-Meters           1m
-license          View the license file. 
-exit             Exit the program.
-quit             Exit the program.
-```
-
-More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Running-Calculator/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Running-Calculator/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Running-Calculator/discussions/new)** or join our **[Discord](https://discord.gg/2eBHwHaPWp)**.
+Open a [GitHub Discussion](https://github.com/willtheorangeguy/Running-Calculator/discussions) or file an [issue](https://github.com/willtheorangeguy/Running-Calculator/issues/new/choose).
 
 ## Contributing
 
 Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/Running-Calculator/compare).
 
-Please read [`CONTRIBUTING`](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## Changelog
-
-See the [`CHANGELOG`](CHANGELOG.md) file for details.
+See the org-wide [Contributing Guide](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Credits
 
@@ -162,10 +109,8 @@ This software uses the following open source packages, projects, services or web
   </tr>
 </table>
 
-## Contributors
-
-* [@willtheorangeguy](https://github.com/willtheorangeguy)
+Sponsor [@willtheorangeguy](https://github.com/willtheorangeguy) on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US).
 
 ## License
 
-This project is licensed under the [MIT License](https://mit-license.org/) - see the [`LICENSE`](LICENSE.md) file for details.
+MIT — see [`LICENSE.md`](LICENSE.md).
