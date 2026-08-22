@@ -2,7 +2,7 @@
 
 One file, 203 lines, three functions.
 
-```
+```text
 main()
  ├── unit prompt        →  a chain of elif comparisons setting `unit`
  ├── time prompts       →  float/int, wrapped in try/except ValueError

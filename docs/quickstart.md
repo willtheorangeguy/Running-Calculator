@@ -12,7 +12,7 @@ No dependencies.
 
 ## A run, start to finish
 
-```
+```text
 What unit will you be inputting? miles
 You are now entering in miles!
 
@@ -37,7 +37,7 @@ are wrong; [Units](./units.md) has the correct ones.
 
 ## Do not enter zero for the whole time
 
-```
+```text
 How many hours did it take you? 0
 How many minutes did it take you? 0
 How many seconds did it take you? 0

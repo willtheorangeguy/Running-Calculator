@@ -2,7 +2,7 @@
 
 Converts a distance and a time into a speed, from the command line.
 
-```
+```text
 Running-Calculator/
 ├── main.py    the whole program: prompts, conversion, output
 └── docs/      this documentation

@@ -7,12 +7,11 @@ licensing decision rather than a documentation one.
 Ordered by severity. See [`docs/roadmap.md`](../roadmap.md) for the narrative version,
 which also covers deliberate non-goals.
 
-
 **3 open:** 2 medium, 1 low.
 
 ## 1. A total time of zero divides by zero and exits with a traceback
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `main.py` -> `main`, `metersps = distance / time`
 
 **What:** `time = (hours * 3600) + (mins * 60) + secs`, then `metersps = distance / time` with no check that `time` is non-zero. Entering `0` for hours, minutes, and seconds raises `ZeroDivisionError: float division by zero` and the program exits with a traceback. Verified by running it. The `try/except ValueError` around the four inputs catches non-numeric entry but not this.
@@ -23,7 +22,7 @@ which also covers deliberate non-goals.
 
 ## 2. Three of the six conversions in the in-program unit list are wrong
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `main.py` -> the `else` branch of the unit prompt
 
 **What:** Entering an unrecognised unit prints a reference table. Three rows disagree with the constants the program calculates with:
@@ -43,7 +42,7 @@ The root cause is that the constants and the printed table are two hand-maintain
 
 ## 3. The in-program licence notice is dated differently from the file header
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `main.py` -> the `license` command; module docstring
 
 **What:** The `license` command prints `Running Calculator Copyright (C) 2022-2023 @willtheorangeguy`. The module docstring at the top of the same file reads `Copyright (C) 2022-2026 willtheorangeguy`.
@@ -51,7 +50,6 @@ The root cause is that the constants and the printed table are two hand-maintain
 **Why it matters:** Small, and it is the one output whose job is stating the copyright accurately -- a user who types `license` is asking that exact question and gets an answer three years stale. The same pattern appears in `LEGO-Block-Creator` and `ProgramVer` in this sweep, which suggests the in-program notices across these projects were written once and never revisited.
 
 **Suggested fix:** Derive both from one place, or at minimum update the command's string. Reading the year from `datetime` would stop it recurring.
-
 
 ---
 
