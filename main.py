@@ -38,7 +38,7 @@ def display_result(distance, unit, metersps, kmph):
 def main():
     """Main entry point of the app."""
     # MATH CONSTANTS
-    FT = 3.281
+    FT = 1 / 0.3048
     MILES = 1609.344
     HALF_MARATHON = 21097.5
     MARATHON = 42195
@@ -137,10 +137,10 @@ def main():
                 sys.exit()
             else:
                 print("Please try again. Options are:")
-                print("Marathons\t 42195m")
-                print("Half Marathons\t 21907.5m")
-                print("Miles\t\t 1069.3m")
-                print("Feet\t\t 0.38m")
+                print(f"Marathons\t {MARATHON:g}m")
+                print(f"Half Marathons\t {HALF_MARATHON:g}m")
+                print(f"Miles\t\t {MILES}m")
+                print(f"Feet\t\t {1 / FT:g}m")
                 print("Kilometers\t 1000m")
                 print("Meters\t\t 1m")
                 print("license\t\t View the license file.")

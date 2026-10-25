@@ -20,7 +20,9 @@ which also covers deliberate non-goals.
 
 **Suggested fix:** Guard before dividing: if `time <= 0`, print a sentence and re-prompt through the existing `time_run` loop, which is already there for the `ValueError` path. Negative values deserve the same check -- they are currently accepted and produce a negative speed.
 
-## 2. Three of the six conversions in the in-program unit list are wrong
+## 2. Three of the six conversions in the in-program unit list are wrong — RESOLVED
+
+**Resolution:** Render unit reference values from the calculation constants and use the exact 0.3048-metre foot conversion.
 
 **Severity:** Medium
 **Where:** `main.py` -> the `else` branch of the unit prompt
