@@ -40,3 +40,16 @@ def test_display_result(capsys):
     assert (
         "Your speed was 10 meters per second or 36 kilometers per hour." in captured.out
     )
+
+
+def test_zero_time_reprompts_and_valid_input_still_calculates(monkeypatch, capsys):
+    import pytest
+    from main import main
+
+    answers = iter(["meters", "1000", "0", "0", "0", "1000", "0", "1", "0", "quit"])
+    monkeypatch.setattr("builtins.input", lambda _: next(answers))
+    with pytest.raises(SystemExit):
+        main()
+    output = capsys.readouterr().out
+    assert "total time greater than zero" in output
+    assert "16.67 meters per second" in output
