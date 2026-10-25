@@ -5,9 +5,11 @@
 import sys
 import os
 
+import pytest
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from main import calculate_distance, display_result
+from main import calculate_distance, display_result, main
 
 
 def test_calculate_distance():
@@ -43,9 +45,7 @@ def test_display_result(capsys):
 
 
 def test_zero_time_reprompts_and_valid_input_still_calculates(monkeypatch, capsys):
-    import pytest
-    from main import main
-
+    """Recover from a zero time and calculate the corrected speed."""
     answers = iter(["meters", "1000", "0", "0", "0", "1000", "0", "1", "0", "quit"])
     monkeypatch.setattr("builtins.input", lambda _: next(answers))
     with pytest.raises(SystemExit):
