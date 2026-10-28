@@ -9,7 +9,9 @@ which also covers deliberate non-goals.
 
 **3 open:** 2 medium, 1 low.
 
-## 1. A total time of zero divides by zero and exits with a traceback
+## 1. A total time of zero divides by zero and exits with a traceback — RESOLVED
+
+**Resolution:** Re-prompt for zero or negative total time, negative values, and non-finite input before calculating speed.
 
 **Severity:** Medium
 **Where:** `main.py` -> `main`, `metersps = distance / time`
