@@ -7,6 +7,7 @@ Copyright (C) 2022-2026 willtheorangeguy
 
 # Running Calculator
 import sys
+import math
 
 
 def calculate_distance(distance, unit):
@@ -159,6 +160,11 @@ def main():
                     input("How many minutes did it take you? (if < 1, enter 0) ")
                 )
                 secs = float(input("How many seconds did it take you? "))
+                if (not math.isfinite(length) or not math.isfinite(secs)
+                        or min(length, hours, mins, secs) < 0
+                        or hours * 3600 + mins * 60 + secs <= 0):
+                    print("Use nonnegative values and a total time greater than zero.")
+                    time_run = True
             except ValueError:
                 print(
                     "Values must be in numerical form, "
