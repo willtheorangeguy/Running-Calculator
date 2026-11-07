@@ -40,7 +40,9 @@ The root cause is that the constants and the printed table are two hand-maintain
 
 **Suggested fix:** Print the table from the constants rather than from literals -- a dict of unit name to metres, used by both the conversion branch and the help output. That removes the possibility of drift rather than correcting three instances of it.
 
-## 3. The in-program licence notice is dated differently from the file header
+## 3. The in-program licence notice is dated differently from the file header — RESOLVED
+
+**Resolution:** Align the CLI notice with the existing file header.
 
 **Severity:** Low
 **Where:** `main.py` -> the `license` command; module docstring

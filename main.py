@@ -123,7 +123,7 @@ def main():
                 print("You are now entering in meters! \n")
                 length_run = False
             elif length_type.lower() == "license":
-                print("Running Calculator Copyright (C) 2022-2023 @willtheorangeguy")
+                print("Running Calculator Copyright (C) 2022-2026 willtheorangeguy")
                 print(
                     "This program comes with ABSOLUTELY NO WARRANTY;"
                     " for details view the license."
